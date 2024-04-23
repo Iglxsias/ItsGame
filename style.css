@@ -1,0 +1,33 @@
+@font-face{
+    font-family: "Kumbh";
+    src: url(font/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+
+:root {
+    --preto-itsgame: #0d0d0d;
+    --verde-itsgame: #3bd9ac;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+.banner {
+    height: 100vh;
+
+    background-color: var(--preto-itsgame);
+    
+}
