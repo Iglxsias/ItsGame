@@ -2,6 +2,10 @@
     font-family: "Kumbh";
     src: url(font/KumbhSans-VariableFont_YOPQ\,wght.ttf);
 }
+@font-face {
+    font-family: "Arial";
+    src: url(font/arial_narrow_7.ttf);
+}
 
 :root {
     --preto-itsgame: #0d0d0d;
@@ -29,5 +33,90 @@ html {
     height: 100vh;
 
     background-color: var(--preto-itsgame);
-    
+    background-repeat: no-repeat;
+
+}
+
+.imagem-banner {
+    display: flex;
+    justify-content:center;
+    height: 200px;
+    padding-left: 300px;
+}
+
+header {
+    height: 165px;
+}
+
+header button{
+    display: none;
+}
+
+header img{
+    width: 100px;
+}
+
+header .container-grid{
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* VERICAR TRADUTOR */
+
+.tradutor{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tradutor a {
+    color: white;
+}
+
+.tradutor a:hover{
+    color: var(--verde-itsgame);
+}
+
+.menu{
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-size: 18px;
+    font-family: "Kumbh";
+
+    color: white;
+
+    text-decoration: underline transparent;
+
+    transition: 500ms ease;
+}
+
+.menu a:hover{
+    color: var(--verde-itsgame);
+}
+
+.conteudo-banner{
+    height: calc(100vh - 280px);
+
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-banner p {
+    font-family: "Arial";
+    font-size: 32px;
+
+    color: white;
+}
+
+.conteudo-banner span{
+    display: block;
+
+    overflow: hidden;
 }
