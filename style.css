@@ -41,7 +41,7 @@ html {
     display: flex;
     justify-content:center;
     height: 400px;
-    padding-left: 150px;
+    padding-left: 140px;
 }
 
 header {
@@ -64,17 +64,20 @@ header .container-grid{
     align-items: center;
 }
 
-/* VERICAR TRADUTOR */
-
 .tradutor{
     cursor: pointer;
     text-decoration: none;
 
-    
 
 }
 
-.tradutor-svg a:hover{
+.tradutor svg{
+    color: white;
+
+    transition: 500ms ease;
+}
+
+.tradutor svg:hover{
     color: var(--verde-itsgame);
 }
 
@@ -107,7 +110,7 @@ header .container-grid{
     align-items: center;
 }
 
-.conteudo-banner p {
+.texto-banner {
     font-family: "Arial";
     font-size: 40px;
 
@@ -122,6 +125,10 @@ header .container-grid{
     font-size: 80px
 }
 
+.titulo-banner{
+    font-size: 50px;
+}
+
 #sobre{
     height: 100vh;
     padding-top: 90px;
@@ -134,10 +141,20 @@ header .container-grid{
 
     text-align: center;
 
-    background-image: url(img/imgsobre.png);
-    background-repeat: no-repeat;
-    background-size: 400px;
+    position: relative;
 
+    background-repeat: no-repeat;
+    background-size: 500px;
+
+
+}
+
+#sobre img{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+
+    z-index: -1;
 }
 
 #sobre h2 {
@@ -148,7 +165,7 @@ header .container-grid{
 
 #sobre p {
     font-family: "Kumbh";
-    font-size: 25px;
+    font-size: 30px;
 
     text-align: justify;
 
@@ -157,4 +174,38 @@ header .container-grid{
 
 .texto-sobre{
     margin-bottom: 50%;
+}
+
+#cases {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#cases h2{
+    font-family: "Arial";
+    font-size: 80px;
+
+    margin-bottom: 70px;
+}
+
+.card {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+    border-radius: 4px;
+
+    height: 400px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.27);
+    
+}
+
+.car-text{
+    background-color: #0d0d0d;
 }
