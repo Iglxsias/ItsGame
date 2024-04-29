@@ -35,6 +35,7 @@ html {
     background-color: var(--preto-itsgame);
     background-repeat: no-repeat;
 
+
 }
 
 .imagem-banner {
@@ -110,9 +111,9 @@ header .container-grid{
     align-items: center;
 }
 
-.texto-banner {
+.texto-banner{
     font-family: "Arial";
-    font-size: 40px;
+    font-size: 32px;
 
 
     color: white;
@@ -122,11 +123,10 @@ header .container-grid{
     display: block;
     overflow: hidden;
 
-    font-size: 80px
 }
 
 .titulo-banner{
-    font-size: 50px;
+    font-size: 80px;
 }
 
 #sobre{
@@ -151,8 +151,9 @@ header .container-grid{
 
 #sobre img{
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 0px;
+
 
     z-index: -1;
 }
@@ -168,6 +169,8 @@ header .container-grid{
     font-size: 30px;
 
     text-align: justify;
+
+    z-index: 300;
 
     line-height: 1.3;
 }
@@ -190,22 +193,62 @@ header .container-grid{
     margin-bottom: 70px;
 }
 
+.container-cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    align-items:end;
+}
+
 .card {
     padding-bottom: 20px;
     margin-bottom: 40px;
 
-    border-radius: 4px;
-
-    height: 400px;
-    width: 250px;
+    height: 410px;
+    width: 320px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     
     box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.27);
+
+    border-radius: 50px 50px 50px 50px;
     
 }
 
 .car-text{
     background-color: #0d0d0d;
 }
+
+.card img{
+
+    padding: 90px;
+    
+
+    border-radius: 0px 10px 0px 0px;
+}
+
+.logo-good img{
+    padding: 50px;
+}
+
+.card p{
+    color: #0d0d0d;
+
+    border-radius: 0px 0px 50px 50px;
+
+    background-color:lightgray;
+
+
+    font-family: "Kumbh";
+    font-size: 16px;
+
+    text-align: justify;
+
+    padding: 7%;
+
+}
+
