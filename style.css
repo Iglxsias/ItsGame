@@ -131,7 +131,7 @@ header .container-grid{
 
 #sobre{
     height: 100vh;
-    padding-top: 90px;
+    padding-top: 160px;
     padding-left: 25%;
     padding-right: 25%;
 
@@ -190,7 +190,9 @@ header .container-grid{
     font-family: "Arial";
     font-size: 80px;
 
-    margin-bottom: 70px;
+    padding: 90px;
+
+    margin-bottom: 10px;
 }
 
 .container-cards{
@@ -205,6 +207,8 @@ header .container-grid{
     padding-bottom: 20px;
     margin-bottom: 40px;
 
+    cursor: pointer;
+
     height: 410px;
     width: 320px;
 
@@ -216,6 +220,8 @@ header .container-grid{
     box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.27);
 
     border-radius: 50px 50px 50px 50px;
+
+    transition: 200ms;
     
 }
 
@@ -224,15 +230,29 @@ header .container-grid{
 }
 
 .card img{
-
-    padding: 90px;
-    
+    width: 422.89px;
 
     border-radius: 0px 10px 0px 0px;
 }
 
+.logo-eco img{
+    margin-top: 30px;
+
+    padding: 74px;
+}
+
+.logo-animall img{
+    margin-top: 10px;
+
+    padding: 95px;
+}
+
 .logo-good img{
-    padding: 50px;
+    width: 392.89px;
+
+    margin-top: 10px;
+
+    padding: 58px;
 }
 
 .card p{
@@ -250,5 +270,19 @@ header .container-grid{
 
     padding: 7%;
 
+}
+
+.card:hover{
+    transform: scale(1.05);
+
+    transition: 200ms ease;
+}
+
+.banner-formulario{
+    
+}
+
+#formulario {
+    text-align:center;
 }
 
