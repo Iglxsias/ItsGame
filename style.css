@@ -278,11 +278,48 @@ header .container-grid{
     transition: 200ms ease;
 }
 
-.banner-formulario{
-    
+.fundo-banner
+{   height: 100vh;
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: row;}
+
+.banner h2{
+    font-family: "Arial";
+    font-size: 40px;
+    color: var(--preto-itsgame);
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+.banner-verde
+{   height: 650px;
+    width: 750px;
+    background-color: #3bd9ac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;}
 
 #formulario {
     text-align:center;
+
+
 }
 
+.titulo-formulario{
+    color: white;
+
+    font-family: "Arial";
+}
+
+.campo {
+    color: white;
+
+    font-family: "Kumbh";
+}
+
+#formulario form button{
+    font-family: "Kumbh";
+}
