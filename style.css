@@ -293,33 +293,155 @@ header .container-grid{
     justify-content: center;
 }
 
-.banner-verde
-{   height: 650px;
+.banner-verde{   
+    height: 650px;
     width: 750px;
+
     background-color: #3bd9ac;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;}
+
+    margin: 40px 0;
+}
+
+
 
 #formulario {
     text-align:center;
 
-
 }
 
 .titulo-formulario{
-    color: white;
+    color: var(--preto-itsgame);
 
     font-family: "Arial";
-}
+    font-size: 40px;
 
-.campo {
-    color: white;
-
-    font-family: "Kumbh";
+    margin: 20px;
 }
 
 #formulario form button{
     font-family: "Kumbh";
+}
+
+#formulario form{
+    width: 30%;
+    height: 56%;
+
+    margin: 0 auto;
+    padding: 20px 0;
+
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    border: #0d0d0d;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    outline: #0d0d0d;
+
+}
+
+.campo {
+    color: var(--preto-itsgame);
+
+    font-family: "Kumbh";
+    font-size: 25px;
+
+    width: 80%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+}
+
+.campo-descricao{
+    color: var(--preto-itsgame);
+
+    font-family: "Kumbh";
+    font-size: 25px;
+
+    width: 80%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.campo input{
+    height: 40px;
+
+    font-family: "Kumbh";
+    font-size: 17px;
+
+    color: #737373;
+    background-color: #d9d9d9;
+
+    border: none;
+    border-radius: 10px;
+
+    text-indent: 10px;
+
+    outline: none;
+
+}
+
+.campo-descricao textarea{
+    height: 80px;
+
+    font-family: "Kumbh";
+    font-size: 17px;
+
+    color: #737373;
+    background-color: #d9d9d9;
+
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+
+    padding: 10px;
+
+    resize: none;
+}
+
+.campo label,
+.campo-descricao label{
+    margin-bottom: 15px;
+}
+
+.campo input:hover,
+.campo-descricao textarea:hover{
+    color: #1a1a1a;
+}
+
+.campo input:hover,
+.campo-descricao textarea:hover{
+    color: #adadad;
+}
+
+#formulario form button{
+    font-family: "kumbh";
+    font-size: 19px;
+
+    width: 20%;
+    height: 40px;
+
+    background-color: var(--preto-itsgame);
+    color: white;
+
+    border: none;
+    border-radius: 5px;
 }
