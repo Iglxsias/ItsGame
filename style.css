@@ -336,12 +336,19 @@ header .container-grid{
     background-color: #f2f2f2;
     border-radius: 30px;
     border: #0d0d0d;
+    border: 3px solid #0d0d0d;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     outline: #0d0d0d;
+
+    position: absolute;
+
+    right: 400px;
+
+    top:2535px
 
 }
 
@@ -422,16 +429,6 @@ header .container-grid{
     margin-bottom: 15px;
 }
 
-.campo input:hover,
-.campo-descricao textarea:hover{
-    color: #1a1a1a;
-}
-
-.campo input:hover,
-.campo-descricao textarea:hover{
-    color: #adadad;
-}
-
 #formulario form button{
     font-family: "kumbh";
     font-size: 19px;
@@ -444,4 +441,128 @@ header .container-grid{
 
     border: none;
     border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
 }
+
+#formulario form button:hover{
+    background-color: #3bd9ac;
+    color: #0d0d0d;
+}
+
+#portfolio {
+    height: 600px;
+
+    background-image: url(img/bannerportfolio.png);
+    background-size: 950px;
+    background-repeat: no-repeat;
+
+    margin-bottom: 30px;
+}
+
+#portfolio .container-grid{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#portfolio a{
+    width: fit-content;
+
+    color: white;
+    background-color: #0d0d0d;
+
+    width: 350px;
+    height: 60px;
+
+    border-radius: 13px;
+
+    font-family: "Kumbh";
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 80px;
+    
+    padding-top: 8px;
+
+    transition: color 500ms ease;
+}
+
+#portfolio a:hover{
+    color: var(--verde-itsgame);
+}
+
+footer{
+    background-color: var(--preto-itsgame);
+
+    height: 350px;
+}
+
+footer .container-grid{
+    height: 100%;
+
+    display: flex;
+   
+    padding-top: 100px;
+}
+
+.redes-sociais{
+    height: 50%;
+
+    display: flex;
+
+    
+}
+
+.redes-sociais p{
+    color: white;
+
+    font-family: "Kumbh";
+     font-size: 30px;
+}
+
+.telefones{
+    color: white;
+
+    font-family: "Kumbh";
+    font-size: 28px;
+
+    margin-top: 50px;
+    
+    padding-left: 600px;
+}
+
+.insta svg{
+   color: white;
+
+   transition: color 500ms ease;
+}
+
+.insta svg:hover{
+    color: var(--verde-itsgame);
+
+    text-decoration: none;
+}
+
+.linkedin svg{
+    color: white;
+
+    transition: color 500ms ease;
+}
+
+.linkedin svg:hover{
+    color: var(--verde-itsgame);
+
+    text-decoration: none;
+}
+
+
