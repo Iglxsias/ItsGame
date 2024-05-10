@@ -452,6 +452,11 @@ header .container-grid{
     color: #0d0d0d;
 }
 
+.campo input:focus,
+.campo-descricao textarea:focus {
+    outline: 2px solid var(--verde-itsgame);
+}
+
 #portfolio {
     height: 600px;
 
@@ -527,7 +532,17 @@ footer .container-grid{
     color: white;
 
     font-family: "Kumbh";
-     font-size: 30px;
+    font-size: 30px;
+
+    margin-top: 70px;
+}
+
+.redes-sociais a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 150px;
 }
 
 .telefones{
@@ -536,13 +551,36 @@ footer .container-grid{
     font-family: "Kumbh";
     font-size: 28px;
 
-    margin-top: 50px;
+    margin-bottom: 60px;
     
-    padding-left: 600px;
+    padding-left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.numero1:hover{
+    color: var(--verde-itsgame);
+
+    transition: color 500ms ease;
+
+    cursor: pointer;
+}
+
+.numero2:hover{
+    color: var(--verde-itsgame);
+
+    transition: color 500ms ease;
+
+    cursor: pointer;
 }
 
 .insta svg{
    color: white;
+
+   margin-top: 25px;
+   margin-left: 50px;
 
    transition: color 500ms ease;
 }
@@ -556,6 +594,9 @@ footer .container-grid{
 .linkedin svg{
     color: white;
 
+    margin-top: 63px;
+    margin-left: 100px;
+
     transition: color 500ms ease;
 }
 
@@ -565,4 +606,14 @@ footer .container-grid{
     text-decoration: none;
 }
 
+@media screen and (max-width: 1300px) {
+    header {
+        position: relative;
+    }
+    
 
+}
+
+#sobre {
+    
+}
