@@ -615,5 +615,40 @@ footer .container-grid{
 }
 
 #sobre {
-    
+    padding: 100px 15%;
 }
+
+#card {
+    height: 310px;
+    width: 220px;
+}
+
+#formulario form {
+    width: 32%;
+    height: 50%;
+
+    margin-top: 195px;
+    margin-left: 800px;
+}
+
+.titulo-formulario{
+    font-size: 30px;
+}
+
+.campo {
+    font-size: 20px;
+}
+
+.campo-descricao{
+    font-size: 20px;
+}
+
+.banner-verde{   
+    height: 720px;
+    width: 630px;
+}
+
+#portfolio a{
+    font-size: 25px;
+}
+
