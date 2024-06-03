@@ -610,6 +610,16 @@ footer .container-grid{
     header {
         position: relative;
     }
+
+    .texto-banner {
+        font-family: "Arial";
+        font-size: 27px;
+        color: white;
+    }
+
+    .titulo-banner {
+        font-size: 70px;
+    }
     
     #sobre {
         padding: 100px 15%;
@@ -621,10 +631,10 @@ footer .container-grid{
     }
     
     #formulario form {
-        width: 32%;
-        height: 50%;
+        width: 33%;
+        height: 60%;
     
-        margin-top: 195px;
+        margin-top: -117px;
         margin-left: 800px;
     }
     
@@ -641,7 +651,7 @@ footer .container-grid{
     }
     
     .banner-verde{   
-        height: 720px;
+        height: 598px;
         width: 630px;
     }
     
@@ -649,7 +659,49 @@ footer .container-grid{
         font-size: 25px;
     }
 
-}
+    #portfolio a {
+        width: fit-content;
 
+        color: white;
+        background-color: #0d0d0d;
+
+        width: 249px;
+        height: 51px;
+
+        border-radius: 13px;
+        font-family: "Kumbh";
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 80px;
+        padding-top: 8px;
+        transition: color 500ms ease;
+    }
+
+    .telefones {
+        color: white;
+        font-family: "Kumbh";
+        font-size: 30px;
+        margin-bottom: 60px;
+        padding-left: 217px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    
+    nav.menu {
+        height: 500px;
+        width: 350px;
+        padding: 0px 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #000000da;
+        position: absolute;
+        top: 165px;
+        right: 0px;
+    }
+}
 
 
